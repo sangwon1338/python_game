@@ -7,7 +7,7 @@ background = pygame.display.set_mode((480,200)) # 배경화면 창 크기
 pygame.display.set_caption('good')
 
 
-# 창 유지하
+# 창 유지하기
 play = True
 while play:
     for envent in pygame.event.get():
